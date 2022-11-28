@@ -5,6 +5,7 @@ int main() {
     for (int i = 0; i < 9; i++) {
         printf("Hello\n");
     }
+    printf("\n");
 
     int n;
 
@@ -14,6 +15,7 @@ int main() {
         printf("%i\n", n);
         n++;
     }
+    printf("\n");
 
     printf("Task 1.3\n");
     n = 0;
@@ -23,6 +25,7 @@ int main() {
         }
         n++;
     }
+    printf("\n");
 
     printf("Task 2\n");
     int sum = 0;
@@ -30,6 +33,7 @@ int main() {
         sum += n;
     }
     printf("%i\n", sum);
+    printf("\n");
 
     return 0;
 }
